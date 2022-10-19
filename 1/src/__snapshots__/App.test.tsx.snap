@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App Snapshot 1`] = `
+<div
+  className="App"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <h2>
+      Login
+    </h2>
+    <label>
+      <span>
+        Email
+      </span>
+      <input
+        data-testid="login-form-email-input"
+        placeholder="Put email here :D"
+        type="text"
+      />
+    </label>
+    <label>
+      <span>
+        Password
+      </span>
+      <input
+        data-testid="login-form-password-input"
+        placeholder="Put email here :D"
+        type="password"
+      />
+    </label>
+    <button
+      data-testid="login-form-submitt-button"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component Snapshot 1`] = `
+<label>
+  <span>
+    Email
+  </span>
+  <input
+    placeholder="Put email here :D"
+    type="text"
+  />
+</label>
+`;
