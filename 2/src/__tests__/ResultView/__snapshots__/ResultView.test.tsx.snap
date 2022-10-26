@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultView Component Snapshot 1`] = `
+<h2>
+  Put numbers to inputs and choose operation, then You'll see the result :D
+</h2>
+`;
