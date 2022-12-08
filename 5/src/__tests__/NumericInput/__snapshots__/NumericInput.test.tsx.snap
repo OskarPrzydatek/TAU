@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumericInput Component Snapshot 1`] = `
+<label>
+  <span>
+    A: 
+  </span>
+  <input
+    onKeyDown={[Function]}
+    type="number"
+  />
+</label>
+`;

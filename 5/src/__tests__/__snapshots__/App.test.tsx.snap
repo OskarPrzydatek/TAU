@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Snapshot 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Simple Calculator
+  </h1>
+  <h2>
+    Put numbers to inputs and choose operation, then You'll see the result :D
+  </h2>
+  <label>
+    <span>
+      Alpha: 
+    </span>
+    <input
+      data-testid="alpha-input"
+      onKeyDown={[Function]}
+      type="number"
+    />
+  </label>
+  <label>
+    <span>
+      Beta: 
+    </span>
+    <input
+      data-testid="beta-input"
+      onKeyDown={[Function]}
+      type="number"
+    />
+  </label>
+  <button
+    data-testid="add-button"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    data-testid="sub-button"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <button
+    data-testid="mul-button"
+    onClick={[Function]}
+  >
+    *
+  </button>
+  <button
+    data-testid="div-button"
+    onClick={[Function]}
+  >
+    /
+  </button>
+</div>
+`;

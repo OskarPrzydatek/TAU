@@ -1,0 +1,27 @@
+name: Testing
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  testing:
+    name: testing
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./5
+    steps:
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Code Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
+
+      - name: Run tests
+        run: yarn test
